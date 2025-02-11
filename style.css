@@ -1,0 +1,92 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background: palevioletred ;
+}
+header figure{
+    width: 30%;
+    margin: 0;
+}
+
+ul li{
+    position: sticky;
+    top: 80px;
+    padding: 5px;
+    margin: 10px 0px;
+    background: lightpink
+}
+
+h1{
+    text-align: center;
+    color: rgba(216, 210, 78, 0.826);
+    
+}
+h2{
+    text-align: center;
+    color:rgba(216, 210, 78, 0.826);
+
+}
+section img{
+    width:100%;
+    height: 50%;
+}
+
+body header img{
+    height:40%;
+    width: 40%;
+}
+button a{
+    display: inline-block;
+    align-items: end;
+    color: black;
+    width:90px;
+    height: 25px;
+}
+
+header {
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 60px;
+    padding: 20px;
+    
+
+}
+
+nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    font-size: 12px;
+    text-decoration: none;
+    list-style-type: none;
+    padding: 0px 15px;
+    
+}
+
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    font-size: 18px;
+    text-decoration: none;
+    list-style-type: none;
+    padding: 0px 10px;
+    background: lightpink;
+}
+footer h2{
+    color: hotpink;
+}
+li a{ display: inline;
+    background: lightcoral;
+    width: 200px;
+    height: 100px;
+    margin: 20px;
+}
+input{
+    width: 25%;
+    height: 25px;
+    color: black;
+}
